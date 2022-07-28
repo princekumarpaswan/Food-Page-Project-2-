@@ -2,27 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Red Rose", cursive;
+    font-family: "Red Rose", "cursive";
+    max-width: 217rem;
+
+  }
+  html{
+    font-size: 62.5%;
   }
 body{
     background-image: url(back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100hv;
+    height: fit-content;
 }
 .trans{
     background-color: #2f354edc;
-    height: 100vh;
+    height: fit-content;
+    
 }
 header{
     position: absolute;
-    top: 35px;
+    top: 3.5rem;
     left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;
+    padding: 1.5rem 10rem;
 
 }
 header ul{
@@ -32,39 +38,39 @@ header ul{
     align-content: center;
 }
 header ul li{
-    margin-left: 100px;
+    margin-left: 10rem;
     color: #FFC233;
-    font-size: 19px;
+    font-size: 1.9rem;
 }
 .order{
-    width: 170px;
-    height: 63px;
+    width: 17rem;
+    height: 6.3rem;
     color: white;
     background-color: #FF505F;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 100;
     border: none;
 }
 .main{
     display: flex;
     justify-content: center;
-    padding-top: 300px;
+    padding-top: 30rem;
     color: #FFC233;
-    font-size: 70px;
+    font-size: 7rem;
     text-align: center;
-    margin: 0px 50px;
-    line-height: 140px;
-    padding-left: 300px;
-    padding-right: 300px;
+    margin: 0rem 5rem;
+    line-height: 14rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
 }
 .btn-menu{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 .menu{
-    width: 350px;
-    height: 83px;
+    width: 35rem;
+    height: 8.3rem;
     font-size: 33px;
     padding: 20px;
     padding-top: 15px;
@@ -75,6 +81,16 @@ header ul li{
 .corner{
     display: flex;
     justify-content: end;
-    margin-right: 110px;
-    margin-top: 100px;
+    margin-right: 11rem;
+    margin-top: 6rem;
+}
+@media(max-width: 1055px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width: 760px){
+    html{
+        font-size: 30%;
+    }
 }
