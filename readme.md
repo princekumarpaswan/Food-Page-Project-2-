@@ -1,4 +1,4 @@
-# Trend | Page - HTML & CSS!
+# Food | Page - HTML & CSS!
 
 By Prince Kr Paswan
 
