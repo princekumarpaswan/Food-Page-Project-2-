@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+body{
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100hv;
+}
+.trans{
+    background-color: #2f354edc;
+    height: 100vh;
+}
+header{
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+header ul li{
+    margin-left: 100px;
+    color: #FFC233;
+    font-size: 19px;
+}
+.order{
+    width: 170px;
+    height: 63px;
+    color: white;
+    background-color: #FF505F;
+    font-size: 25px;
+    font-weight: 100;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    color: #FFC233;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px 50px;
+    line-height: 140px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.btn-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.menu{
+    width: 350px;
+    height: 83px;
+    font-size: 33px;
+    padding: 20px;
+    padding-top: 15px;
+    color: white;
+    background-color: #FF505F;
+    border: none;
+}
+.corner{
+    display: flex;
+    justify-content: end;
+    margin-right: 110px;
+    margin-top: 100px;
+}
