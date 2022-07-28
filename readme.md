@@ -2,7 +2,7 @@
 
 By Prince Kr Paswan
 
-## [Link to the food-Page (project-2)](https://trend-page1.netlify.app/)
+## [Link to the food-Page (project-2)](https://food-page.netlify.app/)
 
 
 ![Completed Website](food.png)
